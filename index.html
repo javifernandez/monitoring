@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Real-Time IO</title>
+    <link href="scripts/styles.css" rel="stylesheet" type="text/css"></link>
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="scripts/client.js"></script>
+    <script type="text/javascript" src="scripts/d3.v3.min.js"></script>
+  </head>
+  <body>
+    <div class="plot">
+      <div id="load" class="graph"></div>
+      <div class="data">
+        <div class="load1">
+          <span class="title">Load (1 min):</span>
+          <span class="value" id="load1">0</span>
+        </div>
+        <div class="load2">
+          <span class="title">Load (5 min):</span>
+          <span class="value" id="load2">0</span>
+        </div>
+        <div class="load3">
+          <span class="title">Load (15 min):</span>
+          <span class="value" id="load3">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="plot">
+      <div id="net" class="graph"></div>
+      </div>
+      <div class="data">
+        <div class="net1">
+          <span class="title">Received:</span>
+          <span class="value" id="net1">0</span>
+        </div>
+        <div class="net2">
+          <span class="title">Sent:</span>
+          <span class="value" id="net2">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="plot">
+      <div id="cpu" class="graph"></div>
+      <div class="data">
+        <div class="cpu1">
+          <span class="title">CPU 1:</span>
+          <span class="value" id="cpu1">0</span>
+        </div>
+        <div class="cpu2">
+          <span class="title">CPU 2:</span>
+          <span class="value" id="cpu2">0</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

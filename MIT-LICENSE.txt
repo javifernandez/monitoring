@@ -1,47 +1,4 @@
-monitoring
-==========
-
-A [node.js](http://nodejs.org/) system performance monitoring demo.
-
-This code is just a demo of the StreamAssembler pattern for dealing
-with real-time streams processing.
-
-Installation
-------------
-
-`npm install`
-
-Dependencies
-------------
-
-* node-stat (0.0.4)
-* express (3.0.3)
-* redis (0.8.2)
-* redis-sync (0.1.4)
-* socket.io" (0.9.11)
-
-Usage
------
-
-* Starting the redis database service (if needed)
-
-* Starting the node.js HTTP server.
-
-$ ./server.js
-
-* Browser to localhost:8080
-
-* Starting the retriever
-
-$ ./retriever.js
-
-
-License
--------
-
-(The MIT License)
-
-Copyright (C) 2012 Igalia S.L, [igalia.com](http://www.igalia.com)
+Copyright (c) 2012 Igalia, http://igalia.com
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
